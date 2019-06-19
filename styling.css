@@ -1,0 +1,657 @@
+
+
+body 
+	{
+		font-family:  'ZCOOL XiaoWei', serif;
+		line-height: 1em;
+		font-size: 1em;
+		background-image: url("images/green_cup.png");
+		background-repeat: repeat;
+	}
+head
+	{
+		width:1200px; 
+		margin: 20px; 
+	}
+#wrapper
+	{
+		width:1100px;  	
+		max-width:100%;
+		margin:auto;
+		height: 1200px;
+		background-color:#E5F1E6;
+		margin-left:80px;
+		box-sizing: border-box;
+	}
+	
+	
+														
+
+													/* /////  Index   /////  */
+#logo
+	{
+		width:200px; 
+		float:left;
+		margin-top:30px;
+		margin-left:30px;
+	}
+#girlhikerimg
+	{
+		width:280px;
+		height:180px;
+		margin-top:30px;
+		margin-right:20px;
+		border:5px solid white;
+		float:right;
+	}
+#title
+	{
+		position:relative;
+		top:300px;
+		left: 100px;
+		color:#021A06; 
+	}
+#kidsinfieldimg
+	{
+		width:400px;
+		height:200px;
+		margin-top:30px;
+		border:5px solid white;
+		float:right;
+		margin-right:20px;
+	}
+aside
+	{
+		position:relative;
+		top:200px;
+		left:20px;
+		width:200px;
+		text-align:center;
+	}
+aside a
+	{
+		color:#331503;
+	}
+#indexcontent
+	{
+		background-color:white;
+		color:#331503;
+		width:800px;
+		float:right;
+		margin-right:30px;
+		margin-top:40px;
+		padding:20px;
+		line-height:1.3em;
+	}
+#indexinset
+	{
+		width:500px;
+		float:right;
+		line-height:1.4em;
+	}
+#heartrock
+	{
+		position:relative;
+		top:50px;
+		height:195px;
+		width:260px;
+	
+	}
+p, blockquote
+	{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+													/*//////about //////*/
+#bridgeimg
+	{	
+		border:5px solid white;
+		float:right;
+		margin-top:30px;
+	}
+#aboutnav
+	{
+		margin-top:15px;
+	}
+#aboutcontent
+	{
+		background-color:white;
+		color:#331503;
+		width:900px;
+		float:right;
+		margin-right:60px; 
+		margin-top:60px;
+		padding:20px;
+		line-height:1.3em;
+	}
+#aboutndd
+	{
+		float:right; 
+		width:550px;
+	}
+#mission
+	{
+		width:700px;
+		float:left; 
+	}
+#girlandhorseimg
+	{
+		width:300px;
+		height:225px;
+		float:left; 
+		margin-top:60px;
+	}
+
+													/* /////// activities ///////*/
+
+#activitieswrapper
+	{
+		width:1100px;  	
+		max-width:100%;
+		margin:auto;
+		height: 1800px;
+		background-color:#E5F1E6;
+		margin-left:80px;
+		box-sizing: border-box;
+	}
+	
+#whitingimg
+	{
+		border:5px solid white;
+		float:right;
+		margin-top:15px;
+		margin-right:120px;
+		
+	}
+#activitiesnav
+	{
+		margin-top:-10px;
+	}
+#activitiescontent
+	{
+		background-color:white;
+		color:#331503;
+		width:900px;
+		float:right;
+		margin-right:60px; 
+		margin-top:20px;
+		padding-top:20px;
+		padding-left:20px;
+		padding-right:20px;
+		line-height:1.3em;
+		height:auto;
+		overflow:auto;
+	}
+#mttomparagraph
+	{
+		width:650px;
+		float:right;
+	}
+#ashleyparagraph
+	{
+		width:650px;
+		float:right; 
+	}
+#DARparagraph
+	{
+		width:650px;
+		float:right;
+	}
+#havilandpondparagraph
+	{
+		width:650px;
+		float:right; 
+		margin-top:-140px;
+	}
+												
+#mountainimg
+	{
+		float:right;
+		margin-top:60px;
+		margin-right:30px;
+		border:5px solid white;
+	}
+
+#activitiesparagraph
+	{
+		width:900px;
+		float:right;
+		height:auto;
+	}	
+#activitiesimages
+	{
+		width:200px;
+		float:left;
+	}
+#rockclimberimg
+	{
+		width:200px;
+		float:left;
+		margin:20px;
+	}
+#cardinalimg
+	{
+		width:200px;
+		float:left;
+		margin:20px;
+	}
+												/*/////////contact //////*/
+#contactwrapper
+	{
+		width:1100px;  		
+		height: 900px;
+		background-color:#E5F1E6;
+		margin-left:80px;
+	}
+#foximg
+	{
+		border:5px solid white;
+		float:right;
+		margin-top:15px;
+		margin-right:120px;
+	}
+#contact
+	{
+		margin-top:100px;
+		text-align:center;
+		width:400px;
+		float:left; 
+	}
+#contactcontent
+	{
+		background-color:white;
+		color:#331503;
+		width:900px;
+		float:right;
+		margin-right:60px; 
+		margin-top:20px;
+		padding:20px;
+		line-height:1.3em;
+	}
+#contactform
+	{
+		float:right;
+		width:450px;
+		margin-top:20px; 
+	}
+#contactcontent  #firstname, #contactcontent #lastname, #contactcontent #email, #contactcontent #message
+	{
+		background-color:#75917C;
+		color:black;	
+	}
+
+													/*/////share///////*/
+#sharewrapper
+	{
+		width:1100px;  		
+		height:800px;
+		background-color:#E5F1E6;
+		margin-left:80px;
+	}
+#bikeimg
+	{
+		border:5px solid white;
+		float:right;
+		margin-top:15px;
+		margin-right:20px;
+	}
+#skatingimg
+	{
+		border:5px solid white;
+		float:right;
+		margin-right:30px;
+		margin-top:28px;
+	}
+#share
+	{
+		margin-left:20px;
+	}
+#sharedactivities
+	{
+		width:540px;
+		float:right;
+		height:500px;
+		overflow:scroll;
+		
+	}
+#sharedactivities img
+	{
+		width:120px;
+		height:100px;
+	}
+#shareForm
+	{
+		width:540px; 
+		float:left;
+		margin-left:20px;
+	}
+
+
+										
+
+
+										/*//////// about ndd //////*/
+#lakeimg
+	{
+		border:5px solid white;
+		float:right;
+		margin-top:15px;
+		margin-right:20px;
+	}
+#kidshugimg
+	{
+		border:5px solid white;
+		float:right;
+		margin-top:15px;
+		margin-right:20px;
+	}
+#aboutnddwrapper
+	{
+		width:1100px;  		
+		height:900px;
+		background-color:#E5F1E6;
+		margin-left:80px;
+	}
+#ndd
+	{
+		background-color:white;
+		color:#331503;
+		width:550px;
+		float:right;
+		margin-right:20px; 
+		margin-top:20px;
+		padding-top:20px;
+		padding-left:20px;
+		padding-right:20px;
+		line-height:1.3em;
+		height:530px;
+	}
+#findmore
+	{
+		float:left;
+		width:475px;
+		text-align:center;
+		margin-top:150px;
+	}
+#hawkimg
+	{
+		width:200px;
+		float:left;
+		margin:10px;
+	}
+	
+										/*///////nature news ///////*/
+#naturenews
+	{
+		background-color:white;
+		color:#331503;
+		width:800px;
+		float:right;
+		margin-right:20px; 
+		margin-top:20px;
+		padding-top:20px;
+		padding-left:20px;
+		padding-right:20px;
+		line-height:1.3em;
+	}
+#parkimg
+	{
+		float:right;
+		border:5px solid white;
+		margin-top:30px;
+		margin-right:60px;
+	}
+#cat
+	{
+		width:550px;
+		float:right;
+	}
+
+											/*///// events /////*/
+#parachuteimg
+	{
+		float:right;
+		border:5px solid white;
+		margin-top:30px;
+		margin-right:60px;
+	}
+#eventscontent
+	{
+		background-color:white;
+		color:#331503;
+		width:900px;
+		float:right;
+		margin-right:60px; 
+		margin-top:20px;
+		padding:20px;
+		line-height:1.3em;
+	}
+											/*////// footer ////// */
+	
+	
+footer 
+	{
+		font-family:'ZCOOL XiaoWei', serif;
+		color: #343756; 
+		background-color:#75917C;
+		width:1092px;
+		font-size: 90%; 
+		padding: 5px 5px 5px 5px;
+		border:1px solid #999; 
+		-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+		line-height:50%; 
+		height:335px; 
+		clear:both;
+		margin-left:78px;
+		
+	}
+footer a:link
+	{
+		color:black;
+	}
+footer a:hover
+	{
+		color:white;
+	}
+#footerleft
+	{
+		float:left;
+		width:340px;
+		margin-left:40px;
+	}
+#footercenter
+	{
+		float:left;
+		width:320px;
+		
+		margin-left:40px;
+	}
+#footercenterright
+	{
+		width:110px;
+		float:right;
+		margin-top:90px;
+		
+	}
+#footerright
+	{
+		float:right;
+		width:300px; 
+		margin-top:30px;
+		text-align:center;
+		margin-right:20px;
+	}
+#firstname, #lastname, #email, #message
+	{
+		background-color:#004655;
+		color:white;	
+	}
+.current
+	{
+		font-size:1.5em;;
+	}
+
+.dropdowna
+	{
+		cursor: pointer;
+		color:black;
+	}
+
+.dropdown 
+	{
+		position: relative;
+		display: inline-block;
+	}
+
+.dropdown-content 
+	{
+		display: none;    /* Dropdown Content (Hidden by Default) */
+		position: absolute;
+		background-color: gray;
+		width:230px;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index:4;
+		color:black;
+		border-radius:5px;
+		font-size:.8m;
+	}
+
+.dropdown-content a 
+	{
+		color: black;    /* Links inside the dropdown */
+		padding: 12px 16px;
+		text-decoration: none;
+		font-size:.8em;
+		display: block; 
+		width:220px;
+		line-height:110%;
+	}
+
+.dropdown-content a:hover 
+	{
+		width:220px;
+	}
+
+.dropdown:hover .dropdown-content
+	{
+		display: block;   /* Show the dropdown menu on hover */
+		
+	}
+.error
+	{
+		
+		color:red;
+		width:500px;
+	}
+
+															/*////////  media queries   ///////*/
+/*/////////NAV/////////*/
+
+nav
+	  {
+		display:flex;   /*by default laid out horizontally*/
+		flex-direction:row;
+	 }
+nav li
+	{
+		list-style-type: none;
+		padding: 5px;
+		margin: 5px;	
+		
+	}
+
+#navcontainer,a
+	{
+		text-decoration:none;
+		color:#021A06;
+		font-size: 1.2em; 
+	}
+#navcontainer a:hover
+	{
+		text-decoration: underline;
+	}
+a
+	{
+		color:#662F12;
+	}
+a:hover
+	{
+		color:#0F0E0E;
+	}
+
+
+#navcontainer
+	{
+		position:relative;
+		float:right;
+		display:flex;
+		background-image: url("images/woodpattern.png");
+		border-radius:10px;
+		width:95%;
+		box-shadow: 10px 10px 8px 5px #888888; 
+		opacity:.8;
+		padding: 5px;
+		margin-top:5%;
+		max-width:700px;
+	}
+nav
+	{
+		margin-top:1.5em;
+	}
+
+nav a
+	  {
+		display:block ;
+		color:#021A06;
+		font-size:1em;
+		font-weight:200;
+		text-align:center;
+		padding:.4em;
+		border-bottom:1px solid black;
+	  }
+
+nav a:hover
+	{
+		color:brown;
+		
+	}
+
+
+
+@media (min-width:769px)
+	{
+  
+    nav
+		{
+			margin-top:3em;
+			flex-direction:row;
+			justify-content:space-between; 
+				  /*first item at start of row. Last item at end of row. Extra space evenly distributed*/
+			max-width:600px;
+		}
+    nav a
+		{
+			border-bottom-color:transparent;
+		}
+	}
+
+@media (min-width:1025px)
+  {
+   
+  
+    nav
+		{
+			margin-top:0px;
+			align-self:center; /*positions nav vertically in the header container*/
+		}
+    nav li
+		{
+			margin-left:.65em;
+			margin-right:.65em;
+		}
+
+  }
+
